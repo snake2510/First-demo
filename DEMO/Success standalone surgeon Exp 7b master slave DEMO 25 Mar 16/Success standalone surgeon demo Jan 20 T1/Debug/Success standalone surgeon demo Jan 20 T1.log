@@ -1,0 +1,36 @@
+﻿Build started 15-Jul-16 12:08:15 PM.
+     1>Project "C:\Users\Naveen\Desktop\DEMO\Success standalone surgeon Exp 7b master slave DEMO 25 Mar 16\Success standalone surgeon demo Jan 20 T1\Success standalone surgeon demo Jan 20 T1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib Exchange.cpp ISR.cpp Main.cpp
+         Exchange.cpp
+         ISR.cpp
+     1>ISR.cpp(36): warning C4305: 'initializing': truncation from 'int' to 'char'
+     1>ISR.cpp(36): warning C4309: 'initializing': truncation of constant value
+     1>ISR.cpp(37): warning C4305: 'initializing': truncation from 'int' to 'char'
+     1>ISR.cpp(37): warning C4309: 'initializing': truncation of constant value
+     1>ISR.cpp(227): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>ISR.cpp(242): warning C4244: 'argument': conversion from 'double' to 'long', possible loss of data
+     1>ISR.cpp(284): warning C4244: 'argument': conversion from 'double' to 'long', possible loss of data
+     1>ISR.cpp(429): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>ISR.cpp(439): warning C4244: 'argument': conversion from 'double' to 'long', possible loss of data
+     1>ISR.cpp(448): warning C4244: 'argument': conversion from 'double' to 'long', possible loss of data
+     1>ISR.cpp(381): warning C4101: 'PositionIs_R': unreferenced local variable
+     1>ISR.cpp(380): warning C4101: 'Velocity_R': unreferenced local variable
+     1>ISR.cpp(379): warning C4101: 'Current_R': unreferenced local variable
+     1>ISR.cpp(389): warning C4101: 'oR2_R': unreferenced local variable
+     1>ISR.cpp(388): warning C4101: 'oR1_R': unreferenced local variable
+         Main.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fp"Debug\Success standalone surgeon demo Jan 20 T1.pch" /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /analyze- /errorReport:prompt "C:\Users\Naveen\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Naveen\Desktop\DEMO\Success standalone surgeon Exp 7b master slave DEMO 25 Mar 16\Debug\Success standalone surgeon demo Jan 20 T1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Naveen\Desktop\DEMO\Success standalone surgeon Exp 7b master slave DEMO 25 Mar 16\Debug\Success standalone surgeon demo Jan 20 T1.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Exchange.obj
+         Debug\ISR.obj
+         Debug\Main.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Success standalone surgeon demo Jan 20 T1.vcxproj -> C:\Users\Naveen\Desktop\DEMO\Success standalone surgeon Exp 7b master slave DEMO 25 Mar 16\Debug\Success standalone surgeon demo Jan 20 T1.exe
+     1>Done Building Project "C:\Users\Naveen\Desktop\DEMO\Success standalone surgeon Exp 7b master slave DEMO 25 Mar 16\Success standalone surgeon demo Jan 20 T1\Success standalone surgeon demo Jan 20 T1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.74

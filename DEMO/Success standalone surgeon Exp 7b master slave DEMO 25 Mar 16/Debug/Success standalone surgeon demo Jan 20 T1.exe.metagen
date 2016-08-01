@@ -1,0 +1,40 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Success standalone surgeon demo Jan 20 T1, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Exchange: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double z : Public
+    System.String ys : Public
+    System.String xs : Public
+  Properties:
+    Double Z   'get set' : 
+    System.String Ys 'get set' : 
+    System.String Xs 'get set' : 
+  Methods:
+    get_Xs(): PrivateScope, Public, HideBySig, SpecialName
+    set_Xs(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Ys(): PrivateScope, Public, HideBySig, SpecialName
+    set_Ys(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Z(): PrivateScope, Public, HideBySig, SpecialName
+    set_Z(Double): PrivateScope, Public, HideBySig, SpecialName
+    Move(String): PrivateScope, Public, HideBySig
+    MoveTorque(Double): PrivateScope, Public, HideBySig
+    Max1s(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Max1pos(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Max2s(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Max3(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MarshalString3(String, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    MarshalString4(String, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    MarshalString5(String, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class ISR: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(SByte, Exchange): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    StartUp(): PrivateScope, Public, HideBySig
+    Read(): PrivateScope, Public, HideBySig
+    MarshalString(String, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    MarshalString2(String, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
